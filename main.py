@@ -1,4 +1,4 @@
-list = []
+list =[]
 step=0
 print("Program starting.")
 integer = int(input("Insert a positive integer: "))
@@ -12,5 +12,5 @@ while integer > 1:
         integer= 3*integer + 1
     list.append(integer)
 print(str(list).strip("[]").replace(",", " -> "))
-print(f"Sequence had {step} total steps.")
-print("\nProgram ending.")
+print(f"Sequence had {step} total steps.\n")
+print("Program ending.")
