@@ -11,6 +11,6 @@ while integer > 1:
     elif division != 0:
         integer= 3*integer + 1
     list.append(integer)
-print(str(list).strip("[]").replace(",", " -> "))
+print(str(list).strip("[]").replace(",", " ->"))
 print(f"Sequence had {step} total steps.\n")
 print("Program ending.")
